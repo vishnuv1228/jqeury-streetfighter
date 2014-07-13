@@ -30,12 +30,13 @@ $(document).ready(function() {
   	if (event.which == 88 ) {
   		$('.ryu-throwing').hide();
   		$('.ryu-ready').hide();
+  		$('.ryu-still').hide()
   		$('.ryu-cool').show();
   	}
   }).keyup(function(event) {
   	if (event.which == 88) {
   		$('.ryu-cool').hide();
-  		$('ryu-still').show();
+  		$('.ryu-still').show();
   	}
   });
 function playHadouken () {
